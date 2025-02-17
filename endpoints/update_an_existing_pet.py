@@ -8,11 +8,11 @@ fake = Faker()
 HOST = 'https://petstore.swagger.io/v2'
 
 
-class AddANewPetToTheStore:
+class UpdateAnExistingPet:
 
-    @allure.step('Add a new pet to the store')
-    def add_a_new_pet_to_the_store(self):
-        """Добавить нового питомца в магазин"""
+    @allure.step('Update an existing pet')
+    def update_an_existing_pet(self):
+        """Обновить существующего питомца"""
         payload = {
             "id": random.randint(1, 99),
             "category": {
@@ -34,7 +34,7 @@ class AddANewPetToTheStore:
         headers = {
             'Content-Type': 'application/json'
         }
-        response = requests.post(f"{HOST}/pet", headers=headers, json=payload)
+        response = requests.put(f"{HOST}/pet", headers=headers, json=payload)
         assert response.status_code == 200, response.status_code
         print(response.json())
         assert response.json()['id'] == payload['id'], "wrong id!"
