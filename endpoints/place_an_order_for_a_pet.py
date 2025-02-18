@@ -14,7 +14,7 @@ class PlaceAnOrderForAPet:
     def place_an_order_for_a_pet(self):
         """Оформить заказ на питомца"""
         payload = {
-            "id": random.randint(1, 99),
+            "id": random.randint(1, 10),
             "petId": random.randint(1, 99),
             "quantity": random.randint(1, 99),
             "shipDate": fake.date(),

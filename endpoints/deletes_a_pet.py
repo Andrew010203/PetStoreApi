@@ -1,8 +1,5 @@
 import requests
 import allure
-from faker import Faker
-
-fake = Faker()
 
 HOST = 'https://petstore.swagger.io/v2'
 
