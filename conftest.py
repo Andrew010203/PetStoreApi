@@ -8,7 +8,7 @@ fake = Faker()
 HOST = 'https://petstore.swagger.io/v2'
 
 
-@pytest.fixture(scope="function", autouse=True)
+@pytest.fixture(scope="function")
 def add_a_new_pet_to_the_store():
     """Предмет для питомца, который необходимо добавить в магазин"""
     payload = {
