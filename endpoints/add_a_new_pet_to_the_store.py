@@ -45,3 +45,4 @@ class AddANewPetToTheStore:
         assert response.json()['tags'][0]['id'] == payload['tags'][0]['id'], "wrong id!"
         assert response.json()['tags'][0]['name'] == payload['tags'][0]['name'], "wrong name!"
         assert response.json()['status'] == payload['status'], "wrong status!"
+

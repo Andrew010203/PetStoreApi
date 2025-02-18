@@ -34,3 +34,5 @@ def add_a_new_pet_to_the_store():
     }
     response = requests.post(f"{HOST}/pet", headers=headers, json=payload)
     print(response.json())
+    pet_id = response.json()['id']
+    yield pet_id
