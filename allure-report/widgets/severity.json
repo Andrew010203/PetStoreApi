@@ -1,0 +1,161 @@
+[ {
+  "uid" : "122a3d8b7308a2ab",
+  "name" : "test_place_an_order_for_a_pet",
+  "time" : {
+    "start" : 1740046613882,
+    "stop" : 1740046614789,
+    "duration" : 907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fd807e5cadac5b7",
+  "name" : "test_update_an_existing_pet",
+  "time" : {
+    "start" : 1740046616464,
+    "stop" : 1740046617276,
+    "duration" : 812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6f0d8a2c44866ba",
+  "name" : "test_add_a_new_pet_to_the_store",
+  "time" : {
+    "start" : 1740046594548,
+    "stop" : 1740046595545,
+    "duration" : 997
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f8d29e3fb4d439d",
+  "name" : "test_find_pets_by_id",
+  "time" : {
+    "start" : 1740046606352,
+    "stop" : 1740046607226,
+    "duration" : 874
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed9c2fa118ae0a32",
+  "name" : "test_create_user",
+  "time" : {
+    "start" : 1740046596433,
+    "stop" : 1740046597225,
+    "duration" : 792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1782119afa5b065a",
+  "name" : "test_create_list_of_users_with_given_input_array",
+  "time" : {
+    "start" : 1740046595553,
+    "stop" : 1740046596425,
+    "duration" : 872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65ba82500e7afcdd",
+  "name" : "test_find_purchase_order_by_id",
+  "time" : {
+    "start" : 1740046611312,
+    "stop" : 1740046612188,
+    "duration" : 876
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e221b2949dd1851f",
+  "name" : "test_updated_user",
+  "time" : {
+    "start" : 1740046618147,
+    "stop" : 1740046618998,
+    "duration" : 851
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80a314e3bd798ec9",
+  "name" : "test_deletes_a_pet",
+  "time" : {
+    "start" : 1740046603665,
+    "stop" : 1740046605433,
+    "duration" : 1768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8ff6d14a3fcdb43",
+  "name" : "test_delete_purchase_order_by_id",
+  "time" : {
+    "start" : 1740046598149,
+    "stop" : 1740046599950,
+    "duration" : 1801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dce2349323359989",
+  "name" : "test_delete_user",
+  "time" : {
+    "start" : 1740046600826,
+    "stop" : 1740046602714,
+    "duration" : 1888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae9fe821ebd57a06",
+  "name" : "test_returns_pet_inventory_by_status",
+  "time" : {
+    "start" : 1740046614797,
+    "stop" : 1740046615631,
+    "duration" : 834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bdf4056350d0fc9",
+  "name" : "test_find_pets_by_status[available]",
+  "time" : {
+    "start" : 1740046607240,
+    "stop" : 1740046608681,
+    "duration" : 1441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0b227f6df070ac6",
+  "name" : "test_get_user_by_user_name",
+  "time" : {
+    "start" : 1740046613028,
+    "stop" : 1740046613870,
+    "duration" : 842
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a34c75bbfd5f935d",
+  "name" : "test_find_pets_by_status[pending]",
+  "time" : {
+    "start" : 1740046608698,
+    "stop" : 1740046609591,
+    "duration" : 893
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f47a11e336f4027",
+  "name" : "test_find_pets_by_status[sold]",
+  "time" : {
+    "start" : 1740046609603,
+    "stop" : 1740046610439,
+    "duration" : 836
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,137 @@
+{
+  "uid" : "e8ff6d14a3fcdb43",
+  "name" : "test_delete_purchase_order_by_id",
+  "fullName" : "tests.test_delete_purchase_order_by_id.TestDeletePurchaseOrderById#test_delete_purchase_order_by_id",
+  "historyId" : "8149b71eddc54353c390d76919040852",
+  "time" : {
+    "start" : 1740046598149,
+    "stop" : 1740046599950,
+    "duration" : 1801
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1740046594546,
+      "stop" : 1740046594548,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "place_an_order_for_a_pet",
+    "time" : {
+      "start" : 1740046597233,
+      "stop" : 1740046598148,
+      "duration" : 915
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Delete purchase order by id",
+      "time" : {
+        "start" : 1740046598150,
+        "stop" : 1740046599949,
+        "duration" : 1799
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order_id",
+        "value" : "4"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "place_an_order_for_a_pet::0",
+    "time" : {
+      "start" : 1740046599950,
+      "stop" : 1740046599951,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_delete_purchase_order_by_id"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDeletePurchaseOrderById"
+  }, {
+    "name" : "host",
+    "value" : "5f058e3ed5c9"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_delete_purchase_order_by_id"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fee7e4f05b2885f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740037463758,
+        "stop" : 1740037465523,
+        "duration" : 1765
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8ff6d14a3fcdb43.json",
+  "parameterValues" : [ ]
+}

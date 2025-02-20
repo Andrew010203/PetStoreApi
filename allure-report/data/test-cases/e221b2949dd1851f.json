@@ -1,0 +1,137 @@
+{
+  "uid" : "e221b2949dd1851f",
+  "name" : "test_updated_user",
+  "fullName" : "tests.test_updated_user.TestUpdatedUser#test_updated_user",
+  "historyId" : "1fed8fb6b29797235a9d26b7b908153b",
+  "time" : {
+    "start" : 1740046618147,
+    "stop" : 1740046618998,
+    "duration" : 851
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1740046594546,
+      "stop" : 1740046594548,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "create_user",
+    "time" : {
+      "start" : 1740046617295,
+      "stop" : 1740046618145,
+      "duration" : 850
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Updated user",
+      "time" : {
+        "start" : 1740046618148,
+        "stop" : 1740046618997,
+        "duration" : 849
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'hernandezdavid'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "create_user::0",
+    "time" : {
+      "start" : 1740046619001,
+      "stop" : 1740046619002,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_updated_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUpdatedUser"
+  }, {
+    "name" : "host",
+    "value" : "5f058e3ed5c9"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_updated_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3d382780897e1fe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1740037484116,
+        "stop" : 1740037485076,
+        "duration" : 960
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e221b2949dd1851f.json",
+  "parameterValues" : [ ]
+}

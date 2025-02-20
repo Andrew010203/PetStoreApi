@@ -1,0 +1,94 @@
+{
+  "uid" : "141342ba8f8570c8",
+  "name" : "test_create_list_of_users_with_given_input_array",
+  "fullName" : "tests.test_create_list_of_users_with_given_input_array.TestCreateListOfUsersWithGivenInputArray#test_create_list_of_users_with_given_input_array",
+  "historyId" : "bf960dba4a89cfe3180c05a315e92937",
+  "time" : {
+    "start" : 1740037461165,
+    "stop" : 1740037461962,
+    "duration" : 797
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1740037460151,
+      "stop" : 1740037460152,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create list of users with given input array",
+      "time" : {
+        "start" : 1740037461165,
+        "stop" : 1740037461962,
+        "duration" : 797
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_create_list_of_users_with_given_input_array"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateListOfUsersWithGivenInputArray"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T37C7KB"
+  }, {
+    "name" : "thread",
+    "value" : "9256-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_create_list_of_users_with_given_input_array"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "141342ba8f8570c8.json",
+  "parameterValues" : [ ]
+}

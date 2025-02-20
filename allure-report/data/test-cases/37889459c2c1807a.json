@@ -1,0 +1,100 @@
+{
+  "uid" : "37889459c2c1807a",
+  "name" : "test_find_pets_by_status[available]",
+  "fullName" : "tests.test_find_pets_by_status.TestFindPetsByStatus#test_find_pets_by_status",
+  "historyId" : "b9a556fa4e9854af5417c48c4bc6d7c7",
+  "time" : {
+    "start" : 1740037472640,
+    "stop" : 1740037474056,
+    "duration" : 1416
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1740037460151,
+      "stop" : 1740037460152,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Find pets by status",
+      "time" : {
+        "start" : 1740037472640,
+        "stop" : 1740037474056,
+        "duration" : 1416
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "status",
+        "value" : "'available'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_find_pets_by_status"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFindPetsByStatus"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T37C7KB"
+  }, {
+    "name" : "thread",
+    "value" : "9256-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_find_pets_by_status"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "status",
+    "value" : "'available'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37889459c2c1807a.json",
+  "parameterValues" : [ "'available'" ]
+}

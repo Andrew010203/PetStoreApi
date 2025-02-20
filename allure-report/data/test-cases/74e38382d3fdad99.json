@@ -1,0 +1,127 @@
+{
+  "uid" : "74e38382d3fdad99",
+  "name" : "test_delete_user",
+  "fullName" : "tests.test_delete_user.TestDeleteUser#test_delete_user",
+  "historyId" : "29f5cc8c997e6393eec6cd56930e642b",
+  "time" : {
+    "start" : 1740037466309,
+    "stop" : 1740037468037,
+    "duration" : 1728
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1740037460151,
+      "stop" : 1740037460152,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "create_user",
+    "time" : {
+      "start" : 1740037465527,
+      "stop" : 1740037466309,
+      "duration" : 782
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Delete user",
+      "time" : {
+        "start" : 1740037466310,
+        "stop" : 1740037468037,
+        "duration" : 1727
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'andrew96'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "create_user::0",
+    "time" : {
+      "start" : 1740037468037,
+      "stop" : 1740037468038,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_delete_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDeleteUser"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-T37C7KB"
+  }, {
+    "name" : "thread",
+    "value" : "9256-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_delete_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74e38382d3fdad99.json",
+  "parameterValues" : [ ]
+}
